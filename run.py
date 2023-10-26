@@ -1,3 +1,10 @@
-# Your code goes here.
-# You can delete these comments, but do not change the name of this file
-# Write your code to expect a terminal of 80 characters wide and 24 rows high
+import gspread
+import json
+json_files = [
+    'templates/animal_libs.json',
+    'templates/food_libs.json',
+    'templates/holiday_libs.json',
+    'templates/movies_libs.json',
+    'templates/nursery_rhymes_libs.json',
+    'templates/sports_libs.json'
+]
