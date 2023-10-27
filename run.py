@@ -1,5 +1,7 @@
 import gspread
 import json
+import random
+
 json_files = [
     'templates/animal_libs.json',
     'templates/food_libs.json',
@@ -8,3 +10,49 @@ json_files = [
     'templates/nursery_rhymes_libs.json',
     'templates/sports_libs.json'
 ]
+
+def load_template(subject_number):
+    with open(json_files[subject_number - 1], 'r') as file:
+        template = json.load(file)
+    return template
+
+
+def mad_libs_rules():
+    """
+    Basic instructions for the user to follow while playing the game.
+    """
+    while True:
+        print("Welcome to Mad Libs!")
+        print("The objective of the game is to create the funniest story possible.")
+        print("First, pick a subject:")
+        for i, subject in enumerate(json_files, start=1):
+            print(f"{i} - {subject.split('/')[1].split('_libs')[0].capitalize()}")
+        print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
+        print("and these words will be used to fill in the blanks in a story.")
+        print("Enjoy the result of your Mad Libs!\n")
+
+        while True:
+            try:
+                subject_number = int(input("Enter the subject number (1 to 6): "))
+                if 1 <= subject_number <= 6:
+                    template = load_template(subject_number)
+                    break
+                else:
+                    print("Invalid input. Please enter a number between 1 and 6.")
+            except ValueError:
+                print("Invalid input. Please enter a number between 1 and 6.")
+
+        user_inputs = {}
+        for key, value in template.items():
+            if key != "story":
+                user_inputs[key] = input(f"Enter a {value}: ")
+
+        final_story = template["story"].format(**user_inputs)
+        print("Here's your Mad Libs story:")
+        print(final_story)
+
+        play_again = input("Play again? (yes/no): ").lower()
+        if play_again != "yes":
+            break
+
+mad_libs_rules()
