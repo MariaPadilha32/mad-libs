@@ -4,12 +4,11 @@ import os
 import random
 
 json_files = [
-    'templates/animal_libs.json',
     'templates/food_libs.json',
-    'templates/holiday_libs.json',
+    'templates/music_libs.json',
     'templates/movies_libs.json',
     'templates/nursery_rhyme_libs.json',  
-    'templates/sports_libs.json'
+    'templates/random_libs.json'
 ]
 
 def load_template(subject_number):
@@ -38,13 +37,13 @@ def mad_libs_game():
 
         while True:
             try:
-                data_str = int(input("Enter the subject number (1 to 6): \n"))
-                if 1 <= data_str <= 6:
+                data_str = int(input("Enter the subject number (1 to 5): \n"))
+                if 1 <= data_str <= 5:
                     break
                 else:
-                    print("Invalid input. Please enter a number between 1 and 6.")
+                    print("Invalid input. Please enter a number between 1 and 5.")
             except ValueError:
-                print("Invalid input. Please enter a number between 1 and 6.")
+                print("Invalid input. Please enter a number between 1 and 5.")
 
         subject_number = data_str
         template = load_template(subject_number)

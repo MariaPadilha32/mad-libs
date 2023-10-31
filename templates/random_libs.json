@@ -1,0 +1,17 @@
+
+silly_word_random = input("Enter a Silly Word: \n")
+surname_random = input("Enter a Surname: \n")
+illness_random = input("Enter an Illness: \n")
+noun_plural_random = input("Enter a Noun (Plura): \n")
+adjective_random = input("Enter a Adjective: \n")
+adjective1_random = input("Enter an Adjective: \n")
+silly2_word_random = input("Enter a Silly Word: \n")
+place_random = input("Enter a Place: \n")
+number_random = input("Enter a Number: \n")
+adjective2_random = input("Enter an Adjective: \n")
+
+sick_note = ("Dear School Nurse:\n" + silly_word_random + " " + surname_random + " will not be attending school today.\n"
+             "He/she has come down with a case of " + illness_random + " and has horrible " + noun_plural_random + " and a/an " + adjective_random + " fever.\n"
+             "We have made an appointment with the " + adjective1_random + " Dr. " + silly2_word_random + ",\n"
+             "who studied for many years in " + place_random + " and has " + number_random + " degrees in pediatrics.\n"
+             "He will send you all the information you need.\nThank you!\nSincerely,\nMrs. " + adjective2_random + ".")

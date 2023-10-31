@@ -1,4 +1,3 @@
-
 animal_music = input("Enter an Animal: \n")
 verb_ing_music = input("Enter a Verb ending in 'ING': \n")
 noun1_music = input("Enter a Noun: \n")
