@@ -52,13 +52,13 @@ def mad_libs_game():
         user_inputs = {}
         for key, value in template.items():
             if key != "story":
-                user_inputs[key] = input(f"Enter a {value}: ")
+                user_inputs[key] = input(f"Enter a {value}: \n")
 
         final_story = template["story"].format(**user_inputs)
         print("Here's your Mad Libs story:")
         print(final_story)
 
-        play_again = input("Play again? (yes/no): ").lower()
+        play_again = input("Play again? (yes/no): \n").lower()
         if play_again != "yes":
             print("Thank you for playing!")
             break
