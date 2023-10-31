@@ -1,5 +1,6 @@
 import gspread
 import json
+import os
 import random
 
 json_files = [
@@ -7,7 +8,7 @@ json_files = [
     'templates/food_libs.json',
     'templates/holiday_libs.json',
     'templates/movies_libs.json',
-    'templates/nursery_rhymes_libs.json',
+    'templates/nursery_rhyme_libs.json',  
     'templates/sports_libs.json'
 ]
 
@@ -37,7 +38,7 @@ def mad_libs_game():
 
         while True:
             try:
-                data_str = int(input("Enter the subject number (1 to 6): "))
+                data_str = int(input("Enter the subject number (1 to 6): \n"))
                 if 1 <= data_str <= 6:
                     break
                 else:
