@@ -1,66 +1,66 @@
-import gspread
-import json
-import os
-import random
-
-json_files = [
-    'templates/food_libs.json',
-    'templates/music_libs.json',
-    'templates/movies_libs.json',
-    'templates/nursery_rhyme_libs.json',  
-    'templates/random_libs.json'
-]
-
-def load_template(subject_number):
-    with open(json_files[subject_number - 1], 'r') as file:
-        template = json.load(file)
-    return template
+import importlib
+from food import foodStories
+from movies import moviesStories
+from nurseryrhymes import nurseryStories
+from random import randomStories
+from music import musicStories
 
 
 def welcome_message():
- """
-Basic instructions for the user to follow while playing the game.
-"""
-print("Welcome to Mad Libs!")
-print("The objective of the game is to create the funniest story possible.")
-print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
-print("and these words will be used to fill in the blanks in a story.")
-print("Enjoy the result of your Mad Libs!\n")
+    """
+    Basic instructions for the user to follow while playing the game.
+    """
+    print("Welcome to Mad Libs!")
+    print("The objective of the game is to create the funniest story possible.")
+    print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
+    print("and these words will be used to fill in the blanks in a story.")
+    print("Enjoy the result of your Mad Libs!\n")
 
 def mad_libs_game():
+    """
+    Main function that runs the game
+    """
     while True:
         welcome_message()
-
         print("First, pick a subject:")
-        for i, subject in enumerate(json_files, start=1):
-            print(f"{i} - {subject.split('/')[1].split('_libs')[0].capitalize()}")
+        print("1 - Food")
+        print("2 - Music")
+        print("3 - Movies")
+        print("4 - Nursery Rhymes")
+        print("5 - Random")
 
         while True:
             try:
-                data_str = int(input("Enter the subject number (1 to 5): \n"))
-                if 1 <= data_str <= 5:
+                subject_choice = int(input("Enter the subject number (1 to 5): "))
+                if 1 <= subject_choice <= 5:
                     break
                 else:
                     print("Invalid input. Please enter a number between 1 and 5.")
             except ValueError:
                 print("Invalid input. Please enter a number between 1 and 5.")
 
-        subject_number = data_str
-        template = load_template(subject_number)
+        subject_module = None
+        if subject_choice == 1:
+            import food as subject_module
+        elif subject_choice == 2:
+            import music as subject_module
+        elif subject_choice == 3:
+            import movies as subject_module
+        elif subject_choice == 4:
+            import nurseryrhymes as subject_module
+        elif subject_choice == 5:
+            import random as subject_module
 
-        user_inputs = {}
-        for key, value in template.items():
-            if key != "story":
-                user_inputs[key] = input(f"Enter a {value}: \n")
-
-        final_story = template["story"].format(**user_inputs)
-        print("Here's your Mad Libs story:")
-        print(final_story)
-
-        play_again = input("Play again? (yes/no): \n").lower()
+        # Run the selected subject's mad libs
+        subject_module.run_mad_libs()
+ 
+        play_again = input("Play again? (yes/no): ").lower()
         if play_again != "yes":
             print("Thank you for playing!")
             break
 
+
 if __name__ == "__main__":
     mad_libs_game()
+
+
