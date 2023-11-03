@@ -23,39 +23,38 @@ def mad_libs_game():
     """
     Main function that runs the game
     """
-    welcome_message()
-    print("First, pick a subject:")
-    print("1 - Food")
-    print("2 - Music")
-    print("3 - Movies")
-    print("4 - Nursery Rhymes")
-    print("5 - Random")
-
     while True:
-        try:
-            subject_choice = int(input("Enter the subject number (1 to 5): "))
-            if 1 <= subject_choice <= 5:
-                break
-            else:
+        welcome_message()
+        print("First, pick a subject:")
+        print("1 - Food")
+        print("2 - Music")
+        print("3 - Movies")
+        print("4 - Nursery Rhymes")
+        print("5 - Random")
+        
+
+        while True:
+            try:
+                subject_choice = int(input("Enter the subject number (1 to 5): "))
+                if 1 <= subject_choice <= 5:
+                    break
+                else:
+                    print("Invalid input. Please enter a number between 1 and 5.")
+            except ValueError:
                 print("Invalid input. Please enter a number between 1 and 5.")
-        except ValueError:
-            print("Invalid input. Please enter a number between 1 and 5.")
-
-        story = None
-
+         
         if subject_choice == 1:
-           story = foodStories()
+            foodStories()
         elif subject_choice == 2:
-           story =  musicStories()
+            musicStories()
         elif subject_choice == 3:
-           story =  moviesStories()
+            moviesStories()
         elif subject_choice == 4:
-           story = nurseryStories()
+            nurseryStories()
         elif subject_choice == 5:
-            story = randStories()
-
-        print(story)
-
+            randStories()
+     
+        
         play_again = input("Play again? (yes/no): ").lower()
         if play_again != "yes":
             print("Thank you for playing!")
