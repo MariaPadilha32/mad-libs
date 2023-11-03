@@ -1,3 +1,6 @@
+"""
+Importing necessary modules & files
+"""
 import importlib
 import random
 from time import sleep
@@ -10,7 +13,8 @@ from music import musicStories
 
 def welcome_message():
     """
-    Basic instructions for the user to follow while playing the game.
+    This function is to welcome the user
+    and give basic instructions on how the game works
     """
     print("Welcome to Mad Libs!")
     print("The objective of the game is to create the funniest story possible.")
