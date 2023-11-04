@@ -15,7 +15,7 @@ def randStories():
         "He/she has come down with a case of " + illness_random + " and has horrible " + noun_plural_random + " and a/an " + adjective_random + " fever.\n"
         "We have made an appointment with the " + adjective1_random + " Dr. " + silly2_word_random + ",\n"
         "who studied for many years in " + place_random + " and has " + number_random + " degrees in pediatrics.\n"
-        "He will send you all the information you need.\nThank you!\nSincerely,\nMrs. " + adjective2_random + "."
+        "He will send you all the information you need.\nThank you!\nSincerely,\nMrs. " + adjective2_random + ".\n"
     )
     print(sick_note)
 

@@ -52,7 +52,7 @@ def moviesStories():
                 " their dreams seeking " + noun8_movies + ".\n...\nNancy tries to " + verb_movies + " her friends and face "
                 "Freddy " + surname_movies + ".\nShe sets traps and succeeds in bringing him into the real world.\nShe "
                 + verb_s_movies + " him, and her " + noun9_movies + " weakens him. Nancy defeats Freddy, and all seems well."
-                "\nHowever, in the end, a " + adjective_movies + " twist suggests that Freddy's presence still lingers."
+                "\nHowever, in the end, a " + adjective_movies + " twist suggests that Freddy's presence still lingers.\n"
             )
         }
     print(moviesStories["nightmare_on_elm_street"])

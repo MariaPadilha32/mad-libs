@@ -22,7 +22,7 @@ def foodStories():
             "Mash the avocados with a fork until you reach your desired consistency (some prefer " + adjective_food + ", while others like it " + adjective1_food + ").\n"
             "Add the diced " + ingredient1_food + ", minced " + ingredient1_food + ", and diced " + ingredient2_food +".\n"
             "Squeeze the lime juice over the mixture and season with " + number3_food + " and pepper.\n"
-            "Mix everything together and serve with " + noun1_food + " or as a topping for tacos.")
+            "Mix everything together and serve with " + noun1_food + " or as a topping for tacos.\n")
     }
 
     print(foodStories["guacamole_food"])

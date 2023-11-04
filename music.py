@@ -27,7 +27,7 @@ def musicStories():
         "Smelly " + animal_music + ", smelly " + animal_music + ".\n"
         "What are they " + verb_ing_music + " you?\n"
         "Smelly " + animal_music + ", smelly " + animal_music + ".\n"
-        "It's not your " + noun1_music + "."
+        "It's not your " + noun1_music + ".\n"
     )
     print(smelly_music)
 

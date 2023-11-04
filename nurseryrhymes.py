@@ -8,7 +8,7 @@ def nurseryStories():
     nursery_story = (
         girls_name_nr + " had a little " + animal_nr + " little " + animal_nr + " little " + animal_nr + ". \n" +
         girls_name_nr + " had a little " + animal_nr + ", its fleece was " + color_nr + " as snow.\nIt followed her to " + place_nr + " one day, " + place_nr + " one day, " + place_nr + " one day,\n" +
-        "it made the children " + verb_nr + " and play to see " + animal_nr + " at " + place_nr + "."
+        "it made the children " + verb_nr + " and play to see " + animal_nr + " at " + place_nr + ".\n"
     )
     print(nursery_story)
 

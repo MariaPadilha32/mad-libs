@@ -16,7 +16,7 @@ def welcome_message():
     This function is to welcome the user
     and give basic instructions on how the game works
     """
-    print("Welcome to Mad Libs!")
+    print("Welcome to Mad Libs!\n")
     print("The objective of the game is to create the funniest story possible.")
     print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
     print("and these words will be used to fill in the blanks in a story.")
@@ -29,17 +29,17 @@ def mad_libs_game():
     """
     while True:
         welcome_message()
-        print("First, pick a subject:")
+        print("First, pick a subject:\n")
         print("1 - Food")
         print("2 - Music")
         print("3 - Movies")
         print("4 - Nursery Rhymes")
-        print("5 - Random")
+        print("5 - Random\n")
         
 
         while True:
             try:
-                subject_choice = int(input("Enter the subject number (1 to 5): "))
+                subject_choice = int(input("Enter the subject number (1 to 5): \n"))
                 if 1 <= subject_choice <= 5:
                     break
                 else:
