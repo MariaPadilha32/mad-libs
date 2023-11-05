@@ -9,6 +9,7 @@ from movies import moviesStories
 from nurseryrhymes import nurseryStories
 from randStories import randStories
 from music import musicStories
+from utils import get_non_empty_input
 
 def welcome_message():
     """
@@ -59,7 +60,7 @@ def mad_libs_game():
             randStories()
 
         sleep(3)
-        play_again = input("\nPlay again? (yes/no): ").lower()
+        play_again = get_non_empty_input("\nPlay again? (yes/no): ").lower()
         if play_again != "yes":
             print("\nThank ou for playing! \nThis game is part of a Code Institute project.\nIf you'd like to explore more of my work,\nplease visit my GitHub profile: https://github.com/MariaPadilha32?tab=repositories")
             break
