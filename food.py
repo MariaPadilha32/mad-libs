@@ -14,9 +14,9 @@ def foodStories():
 
     foodStories = {
         "guacamole_food": (
-            "Classic Guacamole: Ingredients:" + number_food + " ripe avocados \n"
+            "\nClassic Guacamole: \nIngredients:\n" + number_food + " ripe avocados \n"
             "1 small " + ingredient1_food + " , finely diced\n" + number1_food + " - " + number2_food + " cloves " + ingredient1_food + ", minced\n"
-            "1-2 " + ingredient2_food + "diced\nJuice of " + number3_food + "  lime(s)\n "
+            "1-2 " + ingredient2_food + " diced\nJuice of " + number3_food + "  lime(s)\n "
             "" + condiment_food + " and pepper to taste\n...\nInstructions:\n"
             "Cut the avocados in half, " + verb_food + "  the pit, and scoop the flesh into a " + noun_food + "\n"
             "Mash the avocados with a fork until you reach your desired consistency (some prefer " + adjective_food + ", while others like it " + adjective1_food + ").\n"

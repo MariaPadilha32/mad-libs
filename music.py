@@ -12,7 +12,7 @@ def musicStories():
     body_part_music = input("Enter a Body part (plural): ")
 
     smelly_music = (
-        "Smelly " + animal_music + ".\n"
+        "\nSmelly " + animal_music + ".\n"
         "Smelly " + animal_music + ", smelly " + animal_music + ".\n"
         "What are they " + verb_ing_music + " you?\n"
         "Smelly " + animal_music + ", smelly " + animal_music + ".\n"

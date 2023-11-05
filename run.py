@@ -28,7 +28,7 @@ def mad_libs_game():
     Main function that runs the game
     """
     while True:
-        welcome_message()
+       # welcome_message()
         print("First, pick a subject:\n")
         print("1 - Food")
         print("2 - Music")
@@ -59,11 +59,12 @@ def mad_libs_game():
             randStories()
      
         
-        play_again = input("Play again? (yes/no): ").lower()
+        play_again = input("\nPlay again? (yes/no): ").lower()
         if play_again != "yes":
-            print("Thank you for playing!")
+            print("\nThank you for playing! ")
             break
 
 
 if __name__ == "__main__":
+    welcome_message()
     mad_libs_game()

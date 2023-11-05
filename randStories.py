@@ -11,7 +11,7 @@ def randStories():
     adjective2_random = input("Enter an Adjective: ")
 
     sick_note = (
-        "Dear School Nurse:\n" + silly_word_random + " " + surname_random + " will not be attending school today.\n"
+        "\nDear School Nurse:\n" + silly_word_random + " " + surname_random + " will not be attending school today.\n"
         "He/she has come down with a case of " + illness_random + " and has horrible " + noun_plural_random + " and a/an " + adjective_random + " fever.\n"
         "We have made an appointment with the " + adjective1_random + " Dr. " + silly2_word_random + ",\n"
         "who studied for many years in " + place_random + " and has " + number_random + " degrees in pediatrics.\n"
