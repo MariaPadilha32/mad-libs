@@ -11,6 +11,13 @@ from randStories import randStories
 from music import musicStories
 
 
+def clear_screen():
+    """
+    Clear the screen.
+    """
+    os.system('cls' if os.name == 'nt' else 'clear')
+
+
 def welcome_message():
     """
     This function is to welcome the user
@@ -21,14 +28,13 @@ def welcome_message():
     print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
     print("and these words will be used to fill in the blanks in a story.")
     print("Enjoy the result of your Mad Libs!\n")
-
+    
 
 def mad_libs_game():
     """
     Main function that runs the game
     """
     while True:
-       # welcome_message()
         print("First, pick a subject:\n")
         print("1 - Food")
         print("2 - Music")
@@ -39,6 +45,7 @@ def mad_libs_game():
 
         while True:
             try:
+                sleep(2)
                 subject_choice = int(input("Enter the subject number (1 to 5): \n"))
                 if 1 <= subject_choice <= 5:
                     break
@@ -46,6 +53,7 @@ def mad_libs_game():
                     print("Invalid input. Please enter a number between 1 and 5.")
             except ValueError:
                 print("Invalid input. Please enter a number between 1 and 5.")
+                
          
         if subject_choice == 1:
             foodStories()
@@ -57,12 +65,13 @@ def mad_libs_game():
             nurseryStories()
         elif subject_choice == 5:
             randStories()
-     
-        
+
+        sleep(3)
         play_again = input("\nPlay again? (yes/no): ").lower()
         if play_again != "yes":
-            print("\nThank you for playing! ")
+            print("\nThank ou for playing! \nThis game is part of a Code Institute project.\nIf you'd like to explore more of my work,\nplease visit my GitHub profile: https://github.com/MariaPadilha32?tab=repositories")
             break
+        clear_screen()
 
 
 if __name__ == "__main__":
