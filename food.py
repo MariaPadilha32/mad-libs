@@ -1,16 +1,18 @@
+from utils import get_non_empty_input
+
 def foodStories():
-    number_food = input("Enter a Number: ")
-    number1_food = input("Enter a Number: ")
-    number2_food = input("Enter a Number: ")
-    ingredient1_food = input("Enter an Ingredient: ")
-    ingredient2_food = input("Enter an Ingredient: ")
-    number3_food = input("Enter a Number: ")
-    condiment_food = input("Enter a Condiment: ")
-    verb_food = input("Enter a Verb: ")
-    noun_food = input("Enter a Noun: ")
-    adjective_food = input("Enter an Adjective: ")
-    adjective1_food = input("Enter an Adjective: ")
-    noun1_food = input("Enter a Noun: ")
+    number_food = get_non_empty_input("Enter a Number: ")
+    number1_food = get_non_empty_input("Enter a Number: ")
+    number2_food = get_non_empty_input("Enter a Number: ")
+    ingredient1_food = get_non_empty_input("Enter an Ingredient: ")
+    ingredient2_food = get_non_empty_input("Enter an Ingredient: ")
+    number3_food = get_non_empty_input("Enter a Number: ")
+    condiment_food = get_non_empty_input("Enter a Condiment: ")
+    verb_food = get_non_empty_input("Enter a Verb: ")
+    noun_food = get_non_empty_input("Enter a Noun: ")
+    adjective_food = get_non_empty_input("Enter an Adjective: ")
+    adjective1_food = get_non_empty_input("Enter an Adjective: ")
+    noun1_food = get_non_empty_input("Enter a Noun: ")
 
     foodStories = {
         "guacamole_food": (

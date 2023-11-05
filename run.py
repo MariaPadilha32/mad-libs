@@ -10,14 +10,6 @@ from nurseryrhymes import nurseryStories
 from randStories import randStories
 from music import musicStories
 
-
-def clear_screen():
-    """
-    Clear the screen.
-    """
-    os.system('cls' if os.name == 'nt' else 'clear')
-
-
 def welcome_message():
     """
     This function is to welcome the user
@@ -71,9 +63,7 @@ def mad_libs_game():
         if play_again != "yes":
             print("\nThank ou for playing! \nThis game is part of a Code Institute project.\nIf you'd like to explore more of my work,\nplease visit my GitHub profile: https://github.com/MariaPadilha32?tab=repositories")
             break
-        clear_screen()
-
-
+        
 if __name__ == "__main__":
     welcome_message()
     mad_libs_game()

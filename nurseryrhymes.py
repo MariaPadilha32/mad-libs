@@ -1,9 +1,11 @@
+from utils import get_non_empty_input
+
 def nurseryStories():
-    girls_name_nr = input("Enter a Girl's Name: ")
-    animal_nr = input("Enter an Animal: ")
-    color_nr = input("Enter a Color: ")
-    place_nr = input("Enter a Place: ")
-    verb_nr = input("Enter a Verb: ")
+    girls_name_nr = get_non_empty_input("Enter a Girl's Name: ")
+    animal_nr = get_non_empty_input("Enter an Animal: ")
+    color_nr = get_non_empty_input("Enter a Color: ")
+    place_nr = get_non_empty_input("Enter a Place: ")
+    verb_nr = get_non_empty_input("Enter a Verb: ")
 
     nursery_story = (
        "\n" + girls_name_nr + " had a little " + animal_nr + " little " + animal_nr + " little " + animal_nr + ". \n" +
@@ -12,6 +14,5 @@ def nurseryStories():
     )
     print(nursery_story)
 
-
-if __name__ == 'main':
+if __name__ == '__main':
     nurseryStories()

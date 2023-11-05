@@ -1,15 +1,17 @@
+from utils import get_non_empty_input
+
 def musicStories():
-    animal_music = input("Enter an Animal: ")
-    verb_ing_music = input("Enter a Verb ending in 'ING': ")
-    noun1_music = input("Enter a Noun: ")
-    verb_music = input("Enter a Verb: ")
-    occupation_music = input("Enter an Occupation: ")
-    adjective_music = input("Enter an Adjective: ")
-    animal1_music = input("Enter an Animal: ")
-    noun2_music = input("Enter a Noun: ")
-    noun_plural_music = input("Enter a Noun (plural): ")
-    relationship_music = input("Enter a Relationship: ")
-    body_part_music = input("Enter a Body part (plural): ")
+    animal_music = get_non_empty_input("Enter an Animal: ")
+    verb_ing_music = get_non_empty_input("Enter a Verb ending in 'ING': ")
+    noun1_music = get_non_empty_input("Enter a Noun: ")
+    verb_music = get_non_empty_input("Enter a Verb: ")
+    occupation_music = get_non_empty_input("Enter an Occupation: ")
+    adjective_music = get_non_empty_input("Enter an Adjective: ")
+    animal1_music = get_non_empty_input("Enter an Animal: ")
+    noun2_music = get_non_empty_input("Enter a Noun: ")
+    noun_plural_music = get_non_empty_input("Enter a Noun (plural): ")
+    relationship_music = get_non_empty_input("Enter a Relationship: ")
+    body_part_music = get_non_empty_input("Enter a Body part (plural): ")
 
     smelly_music = (
         "\nSmelly " + animal_music + ".\n"

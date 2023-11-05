@@ -1,14 +1,16 @@
+from utils import get_non_empty_input
+
 def randStories():
-    silly_word_random = input("Enter a Silly Word: ")
-    surname_random = input("Enter a Surname: ")
-    illness_random = input("Enter an Illness: ")
-    noun_plural_random = input("Enter a Noun (Plural): ")
-    adjective_random = input("Enter an Adjective: ")
-    adjective1_random = input("Enter an Adjective: ")
-    silly2_word_random = input("Enter a Silly Word: ")
-    place_random = input("Enter a Place: ")
-    number_random = input("Enter a Number: ")
-    adjective2_random = input("Enter an Adjective: ")
+    silly_word_random = get_non_empty_input("Enter a Silly Word: ")
+    surname_random = get_non_empty_input("Enter a Surname: ")
+    illness_random = get_non_empty_input("Enter an Illness: ")
+    noun_plural_random = get_non_empty_input("Enter a Noun (Plural): ")
+    adjective_random = get_non_empty_input("Enter an Adjective: ")
+    adjective1_random = get_non_empty_input("Enter an Adjective: ")
+    silly2_word_random = get_non_empty_input("Enter a Silly Word: ")
+    place_random = get_non_empty_input("Enter a Place: ")
+    number_random = get_non_empty_input("Enter a Number: ")
+    adjective2_random = get_non_empty_input("Enter an Adjective: ")
 
     sick_note = (
         "\nDear School Nurse:\n" + silly_word_random + " " + surname_random + " will not be attending school today.\n"
