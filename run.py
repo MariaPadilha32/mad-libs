@@ -11,6 +11,8 @@ from nurseryrhymes import nurseryStories
 from randStories import randStories
 from music import musicStories
 from utils import get_non_empty_input
+from utils import get_numeric_input
+
 
 def welcome_message():
     """
@@ -22,7 +24,7 @@ def welcome_message():
     print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
     print("and these words will be used to fill in the blanks in a story.")
     print("Enjoy the result of your Mad Libs!\n")
-    
+
 
 def mad_libs_game():
     """
@@ -35,7 +37,7 @@ def mad_libs_game():
         print("3 - Movies")
         print("4 - Nursery Rhymes")
         print("5 - Random\n")
-        
+
 
         while True:
             try:
@@ -47,8 +49,8 @@ def mad_libs_game():
                     print("Invalid input. Please enter a number between 1 and 5.")
             except ValueError:
                 print("Invalid input. Please enter a number between 1 and 5.")
-                
-         
+
+
         if subject_choice == 1:
             foodStories()
         elif subject_choice == 2:
@@ -66,7 +68,8 @@ def mad_libs_game():
             print("\nThank you for playing! \nThis game is part of a Code Institute project.\nIf you'd like to explore more of my work,\nplease visit my GitHub profile: https://github.com/MariaPadilha32?tab=repositories")
             break
         os.system('cls' if os.name == 'nt' else 'clear')
-        
+
+
 if __name__ == "__main__":
     welcome_message()
     mad_libs_game()

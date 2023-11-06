@@ -1,12 +1,13 @@
 from utils import get_non_empty_input
+from utils import get_numeric_input
 
 def foodStories():
-    number_food = get_non_empty_input("Enter a Number: ")
-    number1_food = get_non_empty_input("Enter a Number: ")
-    number2_food = get_non_empty_input("Enter a Number: ")
+    number_food = str(get_numeric_input("Enter a Number: "))
+    number1_food = str(get_numeric_input("Enter a Number: "))
+    number2_food = str(get_numeric_input("Enter a Number: "))
     ingredient1_food = get_non_empty_input("Enter an Ingredient: ")
     ingredient2_food = get_non_empty_input("Enter an Ingredient: ")
-    number3_food = get_non_empty_input("Enter a Number: ")
+    number3_food = str(get_numeric_input("Enter a Number: "))
     condiment_food = get_non_empty_input("Enter a Condiment: ")
     verb_food = get_non_empty_input("Enter a Verb: ")
     noun_food = get_non_empty_input("Enter a Noun: ")

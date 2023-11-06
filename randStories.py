@@ -1,4 +1,5 @@
 from utils import get_non_empty_input
+from utils import get_numeric_input
 
 def randStories():
     silly_word_random = get_non_empty_input("Enter a Silly Word: ")
@@ -9,7 +10,7 @@ def randStories():
     adjective1_random = get_non_empty_input("Enter an Adjective: ")
     silly2_word_random = get_non_empty_input("Enter a Silly Word: ")
     place_random = get_non_empty_input("Enter a Place: ")
-    number_random = get_non_empty_input("Enter a Number: ")
+    number_random = str(get_numeric_input("Enter a Number: "))
     adjective2_random = get_non_empty_input("Enter an Adjective: ")
 
     sick_note = (
