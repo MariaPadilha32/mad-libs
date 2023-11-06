@@ -4,6 +4,7 @@ will not input incorrect information only alphabetic characters
 """
 from utils import get_non_empty_input
 
+
 def musicStories():
     animal_music = get_non_empty_input("Enter an Animal: ")
     verb_ing_music = get_non_empty_input("Enter a Verb ending in 'ING': ")
@@ -25,9 +26,11 @@ def musicStories():
         "It's not your " + noun1_music + ".\n"
         "...\n"
         "They won't " + verb_music + " you to the " + occupation_music + ".\n"
-        "You're obviously not their " + adjective_music + " " + animal1_music + ".\n"
+        "You're obviously not their " + adjective_music +
+        " " + animal1_music + ".\n"
         "You may not be a " + noun2_music + " of " + noun_plural_music + ",\n"
-        "And you are no " + relationship_music + " to those with " + body_part_music + ".\n"
+        "And you are no " + relationship_music +
+        " to those with " + body_part_music + ".\n"
         "...\n"
         "Smelly " + animal_music + ".\n"
         "Smelly " + animal_music + ", smelly " + animal_music + ".\n"

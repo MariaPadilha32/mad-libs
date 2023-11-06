@@ -3,7 +3,7 @@ Importing necessary modules & files
 """
 import importlib
 import random
-import os   
+import os
 from time import sleep
 from food import foodStories
 from movies import moviesStories
@@ -20,8 +20,9 @@ def welcome_message():
     and give basic instructions on how the game works
     """
     print("Welcome to Mad Libs!\n")
-    print("The objective of the game is to create the funniest story possible.")
-    print("You will be prompted to input various words (nouns, adjectives, verbs, adverbs, etc.),")
+    print("The objective of the game is to create the funniest story possible")
+    print("You will be prompted to input various words")
+    print("such as nouns, adjectives, verbs, adverbs, etc.,")
     print("and these words will be used to fill in the blanks in a story.")
     print("Enjoy the result of your Mad Libs!\n")
 
@@ -39,18 +40,16 @@ def mad_libs_game():
         print("4 - Nursery Rhymes")
         print("5 - Random\n")
 
-
         while True:
             try:
                 sleep(2)
-                subject_choice = int(input("Enter the subject number (1 to 5): \n"))
+                subject_choice = int(input("Pick a subject number (1 - 5):\n"))
                 if 1 <= subject_choice <= 5:
                     break
                 else:
-                    print("Invalid input. Please enter a number between 1 and 5.")
+                    print("Invalid input. Please pick a number between 1 - 5.")
             except ValueError:
-                print("Invalid input. Please enter a number between 1 and 5.")
-
+                print("Invalid input. Please pick a number between 1 - 5.")
 
         if subject_choice == 1:
             foodStories()
@@ -66,7 +65,11 @@ def mad_libs_game():
         sleep(3)
         play_again = get_non_empty_input("\nPlay again? (yes/no): ").lower()
         if play_again != "yes":
-            print("\nThank you for playing! \nThis game is part of a Code Institute project.\nIf you'd like to explore more of my work,\nplease visit my GitHub profile: https://github.com/MariaPadilha32?tab=repositories")
+            print("\nThank you for playing!"
+                  " \nThis game is part of a Code Institute project.\n"
+                  "If you'd like to explore more of my work,"
+                  "\nplease visit my GitHub profile:"
+                  "https://github.com/MariaPadilha32?tab=repositories")
             break
         os.system('cls' if os.name == 'nt' else 'clear')
 

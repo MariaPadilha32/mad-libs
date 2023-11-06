@@ -13,7 +13,7 @@ def get_non_empty_input(prompt):
 
 def get_numeric_input(prompt):
     """
-    function created so all numeric inputs 
+    function created so all numeric inputs
     will accept only numbers.
     """
     while True:
