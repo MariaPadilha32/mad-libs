@@ -1,3 +1,7 @@
+"""
+inport the necessary functions to make sure users
+will not input incorrect information only alphabetic characters
+"""
 from utils import get_non_empty_input
 
 def musicStories():

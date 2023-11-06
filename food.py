@@ -1,3 +1,8 @@
+"""
+inport the necessary functions to make sure users
+will not input incorrect information only alphabetic characters
+or numeric characters only. 
+"""
 from utils import get_non_empty_input
 from utils import get_numeric_input
 

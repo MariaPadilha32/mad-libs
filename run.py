@@ -28,7 +28,8 @@ def welcome_message():
 
 def mad_libs_game():
     """
-    Main function that runs the game
+    Main function that runs the game - allows the user to select a subject
+    input they choice, play different stories, play again or exit
     """
     while True:
         print("First, pick a subject:\n")
