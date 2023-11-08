@@ -190,7 +190,7 @@ Should the user's answer to the above question be anything other than 'y,' the g
   
 ![Captura de tela 2023-11-08 203856](https://github.com/MariaPadilha32/mad-libs/assets/137770409/1ba78a1c-9ffa-4365-ab63-dd2986f5ce96)
 
- - imporlib: *Purpose*: The importlib package provides a way to dynamically import other Python modules, which means I can load code from different files while your program is running. In my project, I use it to dynamically import the story modules (e.g., foodStories, moviesStories) based on the user's choice of subject. This allows the code to load the appropriate story module as needed.
+ - importlib: *Purpose*: The importlib package provides a way to dynamically import other Python modules, which means I can load code from different files while your program is running. In my project, I use it to dynamically import the story modules (e.g., foodStories, moviesStories) based on the user's choice of subject. This allows the code to load the appropriate story module as needed.
    
  - Os: *Purpose*: The Os package provides a way to interact with the operating system. It can use to perform tasks such as clearing the screen, working with directories, or executing shell commands. In my project, I use Os to clear the screen based on the user's operating system (with 'cls' for Windows and 'clear' for other systems). This helps keep the user interface clean and clear when the user decides to play again.
    
@@ -206,8 +206,6 @@ Should the user's answer to the above question be anything other than 'y,' the g
   - utils: Houses utility functions, such as get_non_empty_input and get_numeric_input, to ensure correct and user-friendly input from players.
    
 ## Testing:
-
-  ### Bugs:
 
   ### Code Validation
 
@@ -283,7 +281,7 @@ utils.py
 
 ![utils clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/38973048-e4c3-495b-8d32-3c92deb16333)
 
-
+## Bugs:
 
 ## Debugs
 
@@ -356,12 +354,19 @@ utils.py
 
  * Explore Your Deployed App: Once the deployment process concludes, click "View" to access and explore your live application.
 
-## Content
-
 ## Credits 
+
+### Codes
+
+- The Mad Libs was inspired ny a few Youtube tutorials: [Python Beginner Project #1- Build a Mad Libs Generator | Practice Python Projects](https://www.youtube.com/watch?v=vFNZvZSOqlY).
+
+
+### Content
+
+ - The Music from music.py, the Doctor's note from randStories.py and the Nursery Rhymes from nurseryrhymes.py were used from [MadTakes](https://www.madtakes.com/index.php?page=-1)
 
 ## Special Thanks
 
-## Acknowledments 
-
-
+ - I would like to express imense gratitute to my friend Lucas, who gave me valuable advice.
+ - I would like to thank my mentor [Harry Dhillon] (https://github.com/Harry-Leepz), his guidence has been incredibly helpful  during moments of significant challenge.
+ - Special thanks are also due to my classmates on Slack, who have consistently provided their support, assistance, and valuable feedback. Their collective spirit of collaboration has been invaluable.
