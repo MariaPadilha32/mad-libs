@@ -22,9 +22,22 @@ Welcome,
 
 ## Initial concept:
 
-### Key Objectives:
+ My initial idea for this project was to develop a user-friendly website that would serve as a platform for people seeking an easy and entertaining game, allowing them to enjoy a moment of laughter and creativity with the unpredictable and often hilarious results of Mad Libs.
 
-### Features and Functionality
+### Target Audience:
+
+ The target audience for this project is diverse and includes:
+
+ - English language learners who can use Mad Libs as an engaging educational tool to better understand nouns, verbs, adjectives, etc.
+ - Friends and groups looking for an enjoyable and light-hearted activity to have a laugh.
+ - Anyone in need of a quick and fun distraction from their daily routine.
+
+### Key Objectives:
+ - Provide an easy-to-understand and easy-to-play game: The primary goal is to make Mad Libs accessible to users of all ages and students with a minimum of a B1 knolodge of English. The game should be intuitive and enjoyable for both newcomers and experienced players.
+
+ - Create a clean and user-friendly platform: The website's design should be clean and easy on the eyes. It should have an intuitive user interface, expcted the user would understand the game after the first round.
+
+ - Attract and engage users seeking relaxation and entertainment: We aim to create a space where users can unwind, have a good time, and create an crazy and hilarious story.
 
 ## Wireframes
 
@@ -52,11 +65,17 @@ Should the user's answer to the above question be anything other than 'y,' the g
   A short explanation for the FLow Chart above:
  
  1-  When the user runs the program, they will encounter a "welcome message" and the game rules. In Python, this part of the function is straightforward and direct.
+ 
  2- The second part of the Flow Chart involves the user selecting a subject to play. In Python, this is the primary function that drives the game.
+ 
  3- The third part includes the various subjects. In Python, each subject is stored in a separate file, with each having its own function separated from the main function.
+ 
  4- The fourth part prompts the user to enter multiple words. For each subject, the function is located in a different file(as mentioned above).
+ 
  5- In the fifth part, the Mad Lib will be generated and displayed to the user. Additionally, the user will be asked if they want to continue playing or end the game.
+ 
  6- The sixth part comes into play if the user decides to play again. The screen is cleared, and the user is presented with options to select a subject (returning to step 2 in the flow chart).
+ 
  7- The seventh part is activated if the user decides to end the game. In this case, the user will receive a farewell message, and the function will pause and stop.
 
 ## How to play
@@ -84,8 +103,6 @@ Should the user's answer to the above question be anything other than 'y,' the g
 ## Debugs
 
 ## Deployment
-
-## Credits
 
 ## Content
 
