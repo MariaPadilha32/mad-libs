@@ -10,10 +10,15 @@
 
 Welcome, 
 
-  The Mad Libs Game is a Python project created as the third project for the Code Institute course. It is a fun and interactive word game that allows players to create humorous and often silly stories by filling in the blanks with words of their choice.
------add more------
+ To the Mad Libs Game, a Python project developed as the third project for the Code Institute course. This is a fun and interactive word game that lets players create humorous and often silly stories by inputting words such as nouns, verbs, colors, animals, and numbers. These words are then inserted into a story template, providing entertainment.
 
 ## UX: User experience:
+
+ - As a user of the site, I want the content to be in English for better understanding.
+ - As a user of the site, I desire a game that provides entertainment and serves as a distraction.
+ - As a user of the site, I value clear and concise rules to gain a better understanding of the game's mechanics.
+ - As a user of the site, I appreciate an easy-to-play game, and I expect to grasp it after the first round.
+ - As a user of the site, I would like the option to replay the game once I've completed it.
 
 ## Initial concept:
 
