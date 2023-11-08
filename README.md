@@ -80,7 +80,25 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
 ## How to play
 
-## Future Features
+ Mad Libs, a play on "ad lib" (from Latin "ad libitum," meaning "as you wish"), is a word game in which one player prompts another to provide a list of words to substitute for blanks in a story. The resulting story, with these word substitutions, often has a humorous and absurd effect when read aloud.
+
+ - The game starts after the welcome message and explanation is presented.
+   - The user is prompted to select one of five subjects, but they won't know the specifics of the story for each subject:
+       1) Nursery Rhymes (a twist on "Mary had a little lamb")
+       2) Music  (an interpretation of "Smelly Cat")
+       3) Movies (a humorous version of "A Nightmare on Elm Street")
+       4) Food (a playful recipe for Classic Guacamole)
+       5) Random (an unconventional doctor's note)
+   - After choosing a subject, the user is asked to provide inputs. They will be prompted to enter specific words or phrases, such as "Enter a Girl's Name," "Enter an Animal," and so on, until all required inputs are provided.
+   - Once all inputs are collected, the user is presented with a whimsical and likely humorous story.
+   - If the user attempts to submit an empty input, they will receive a message like **Please enter a single word.** or **Please enter only integer numbers.**
+   - If the user enters a symbol or number when the input is expected to be a specific type of word, they will receive the message **Please enter a single word.**.
+   - If the user inputs a word when a number is expected, they will receive the message **Please enter only integer numbers.**.
+   - The game recognizes the distinction between numbers and letters, accepts gibberish, does not correct misspellings, and does not allow words with symbols or space (e.g., "ice-cream" or "Burger King").
+   - The game does not have a scoring system; its primary aim is to provide entertainment and humor.
+   - At the end of the game, the user has the option to decide whether they'd like to play again or not.
+
+## Features
 
 ## Technologies Used:
 
