@@ -207,8 +207,6 @@ Should the user's answer to the above question be anything other than 'y,' the g
    
 ## Testing:
 
-  ### Code Validation
-
   #### Validation Result:
 
    To validate my code I used Code Institute's [PEP8 Python Linter](https://pep8ci.herokuapp.com/)
@@ -283,10 +281,27 @@ utils.py
 
 ## Bugs:
 
+ I dedicated numerous hours to meticulously test every aspect of this project, ensuring that every feature and functionality was working as intended. The testing phase was a crucial part of the development process, during which I left no stone unturned to identify and address potential issues. This exhaustive testing allowed me to deliver a more robust and reliable application, and I am confident that it will provide a smooth user experience. 
+ 
+ Bugs Encountered: During the development of this project, I encountered several bugs that required debugging. While I didn't document all of them, I'd like to highlight a few key issues and how they were resolved.
+
+ Issue 1: Non-functional Stories: One significant bug I encountered was that the stories were not working as expected. After thorough investigation, I discovered that this was due to my failure to call the necessary functions. This issue was resolved by adding the missing function calls in the appropriate places in the code.
+
+ Issue 2: Small Typos: In the process of debugging, I also encountered several smaller bugs that were often caused by misspellings and minor syntax errors. These seemingly insignificant issues can have a significant impact on the code's functionality. Paying attention to details and thoroughly reviewing the code proved essential in resolving these bugs.
+
+![Captura de tela 2023-11-06 213812](https://github.com/MariaPadilha32/mad-libs/assets/137770409/e1f5aee4-034a-48a5-bcf3-ddce8cac9180)
+![Captura de tela 2023-11-06 210810](https://github.com/MariaPadilha32/mad-libs/assets/137770409/a665f4a4-0577-4544-921b-3921fbbf38ba)
+![Captura de tela 2023-11-06 210436](https://github.com/MariaPadilha32/mad-libs/assets/137770409/d620d695-2658-498b-92ea-eb61f50ba099)
+![Captura de tela 2023-11-05 204541](https://github.com/MariaPadilha32/mad-libs/assets/137770409/1d29906e-574c-4081-8f78-3cdbc64f77ba)
+![Captura de tela 2023-10-27 190250](https://github.com/MariaPadilha32/mad-libs/assets/137770409/59bd3894-6809-476f-96f1-4dc94219a043)
+
 ## Debugs
 
-
-
+ - Thorough Testing: Comprehensive testing is vital in identifying and resolving bugs. Ensure that your code is rigorously tested at each stage of development.
+ - Logs and Comments: Incorporate detailed logging and comments in MY code to help track the flow of execution. This is invaluable in pinpointing issues.
+ - Consult Documentation: Whenever you encounter an issue related to a library or framework, consult the official documentation. It can provide insights and solutions.
+ - Learning from Bugs: Each bug is an opportunity for learning and growth. After solving an issue, reflect on what caused it and how to prevent similar bugs in the future.
+   
 ## Deployment
 
  Mad Libs was created using Codeanywhere and Deployed on Heroku.
