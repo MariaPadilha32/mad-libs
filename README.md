@@ -103,10 +103,24 @@ Should the user's answer to the above question be anything other than 'y,' the g
 ## Technologies Used:
 
   ### Languages:
+   - [Python](https://www.python.org/) was used to create the game itself.
 
   ### Programming Paradigm:
+ 
+ This project follows a combination of programming paradigms, primarily embracing Procedural Programming and Modularization.
+
+ - Procedural Programming: The code is structured to follow a sequence of statements or commands to achieve a desired output. Functions (methods) are used to encapsulate specific behavior and logic. In this project, functions play a crucial role in managing the game's flow and functionality.
+
+ - Modularization: The project uses a modular approach by separating different subject areas into separate files (e.g., food.py, movies.py, nurseryrhymes.py, etc.). Each file serves as a module, encapsulating related code, which promotes organization and maintainability.
+
+ While the project leans towards procedural programming, the use of modularization allows for a more organized and maintainable codebase, enabling easier management of different aspects of the game.
 
   ### Other Tools:
+  
+ - [GitHub](https://github.com/): Used to host the source code of the website
+ - [Codeanwhere](https://id.codeanywhere.com/realms/default/protocol/openid-connect/auth?client_id=dashboard&redirect_uri=https%3A%2F%2Fapp.codeanywhere.com%2F&state=30f86e0e-e3b1-4549-846b-d328c0c1fd83&response_mode=fragment&response_type=code&scope=openid&nonce=cc710acb-c72a-4741-87a1-002f681960ce): IDE used to develop the website
+ - [Heroku](https://www.heroku.com/auth/login): Used to deploy.
+ - [Lucid](https://lucid.app/documents#/documents?folder_id=recent): Used for the flow chart.
 
   ### Packages:
 
