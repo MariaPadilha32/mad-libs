@@ -152,6 +152,78 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
   #### Validation Result:
 
+   To validate my code I used Code Institute's [PEP8 Python Linter](https://pep8ci.herokuapp.com/)
+
+   run.py
+    -Before
+
+![run errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/bcf77f14-d725-492f-adff-1bc81992754c)
+
+    -after
+
+![run clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/d89016c3-4ecd-409e-b88d-253541ba8936)
+
+   nurseryrhymes.py
+    -Before
+
+![nursery errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/2718ad4c-8eb8-4a08-b1bd-f0e22f96449f)
+
+    -after
+
+![nursery clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/4a1472e2-ce4d-413d-ad35-9b03f5cf4118)
+
+  music.py
+    -Before
+
+No screenshot was taken showing the errors.
+
+    -after
+
+![Captura de tela 2023-11-08 215857](https://github.com/MariaPadilha32/mad-libs/assets/137770409/9e753a1a-607a-4e40-9b8d-33987ddd3cd4)
+
+
+ movies.py
+    -Before
+
+![movies errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/feafe6e7-c4f0-42f8-aa1d-2c2e356355e8)
+
+    -after
+
+![movies clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/3f2a71e7-9172-49b9-8857-0274c6ed75b1)
+
+ food.py
+    -Before
+    
+![food errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/b474151f-61a2-4bcf-beaf-dabae42eb0b6)
+
+
+    -after
+
+![food clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/b68ab2d3-2030-40b0-85ce-eaf5fa466948)
+
+
+randStories.py
+    -Before
+
+![random errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/01868901-e826-4a06-95d2-0a6eb2e5275e)
+
+
+    -after
+
+![random clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/751f4966-f22b-41d2-8850-0e7c219ec2ef)
+
+
+utils.py
+    -Before
+
+![utils errors](https://github.com/MariaPadilha32/mad-libs/assets/137770409/a2232e53-682e-4d92-9134-821c3be9243d)
+
+    -after
+
+![utils clear](https://github.com/MariaPadilha32/mad-libs/assets/137770409/38973048-e4c3-495b-8d32-3c92deb16333)
+
+
+
 ## Debugs
 
 ## Deployment
