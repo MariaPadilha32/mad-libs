@@ -118,11 +118,11 @@ Should the user's answer to the above question be anything other than 'y,' the g
  
  ![Captura de tela 2023-11-08 221204](https://github.com/MariaPadilha32/mad-libs/assets/137770409/0813cb05-8128-4695-b4ab-5be97fa85e12)
 
- 5 - Empity inputs are not accepted (Error message)
+ 5 - Empty inputs are not accepted (Error message)
  
  ![Captura de tela 2023-11-08 221216](https://github.com/MariaPadilha32/mad-libs/assets/137770409/c4ab1dc6-4c3a-4446-966c-73792400f192)
 
- 6 - Input does not accept the letters and numbers (Error message)
+ 6 - Input does not accept letters and numbers (Error message)
  
  ![Captura de tela 2023-11-08 221239](https://github.com/MariaPadilha32/mad-libs/assets/137770409/fa05ba4a-b1e7-4063-9150-04b0cd1e3103)
 
@@ -130,7 +130,7 @@ Should the user's answer to the above question be anything other than 'y,' the g
  
  ![Captura de tela 2023-11-08 221335](https://github.com/MariaPadilha32/mad-libs/assets/137770409/b1e35d3c-17fa-40fb-b518-cb03dbb84cad)
 
- 8 - Input for numbers does not accept empity inputs are not accepted (Error message)
+ 8 - Input for numbers does not accept empty inputs (Error message)
  
  ![Captura de tela 2023-11-08 221356](https://github.com/MariaPadilha32/mad-libs/assets/137770409/bc90093c-221d-4a3b-89b2-a1ccad983897)
 
@@ -142,11 +142,11 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
 ![Captura de tela 2023-11-08 221432](https://github.com/MariaPadilha32/mad-libs/assets/137770409/f4edf167-5399-4d20-87af-97bf8fede967)
 
- 11 - Final result is delivered - after a few seconds the question "Play again? (y/n)
+ 11 - Final result is delivered - after a few seconds, the question "Play again? (y/n)"
 
 ![Captura de tela 2023-11-08 221459](https://github.com/MariaPadilha32/mad-libs/assets/137770409/2620f1fa-4331-4f7f-a4a3-e6a4b8e5e6bf)
  
- 12 - The user gets the chance to pick a new subject
+ 12 - The user has the opportunity to choose a new subject
 
 ![Captura de tela 2023-11-08 221511](https://github.com/MariaPadilha32/mad-libs/assets/137770409/d12a44a0-3f57-4f78-8a05-6170d31f9637)
 ![Captura de tela 2023-11-08 221522](https://github.com/MariaPadilha32/mad-libs/assets/137770409/8f0352dd-62ae-42d6-8e23-7caea8f64b30)
@@ -155,7 +155,7 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
 ![Captura de tela 2023-11-08 221556](https://github.com/MariaPadilha32/mad-libs/assets/137770409/7134b8a8-4e78-4de6-a1f3-b7d0529d08e9)
 
- 14 - Error message when they user trys to input an empity message
+ 14 -  Error message when the user tries to input an empty message.
 
  ![Captura de tela 2023-11-08 221611](https://github.com/MariaPadilha32/mad-libs/assets/137770409/cc9076e1-ce2e-400e-9400-91c5f9c84daa)
 
@@ -287,7 +287,74 @@ utils.py
 
 ## Debugs
 
+
+
 ## Deployment
+
+ Mad Libs was created using Codeanywhere and Deployed on Heroku.
+
+ The Deployment process was following step by step the instruction given during [Love Sandwiches](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LS101+2021_T1/courseware/293ee9d8ff3542d3b877137ed81b9a5b/e3b664e16366444c8d722c5d8340b340/) walk-throgh project. 
+
+### GitHub Deployment
+
+ * Sign Up for a GitHub Account: Begin your journey by registering for a free GitHub account at GitHub.com.
+
+ * Create a New Repository: On the main page, click the "+" button and choose "New Repository."
+
+ * Configure Repository Details: Provide a name, description, and set your repository to "public."
+
+ * Access Repository Settings: Navigate to the settings of your newly created repository.
+
+ * Set Up GitHub Pages: Locate the "GitHub Pages" section within your repository settings.
+
+ * Choose Deployment Branch: Select the "main" branch as the one for deployment.
+
+ * Save Your Changes: Save the settings to kickstart the deployment process.
+
+ * Wait for Deployment: Wait for the confirmation message that signals a successful deployment.
+
+ * Access Your Live Site: Once deployed, find the link to your live website.
+
+ * Share the Link: Share the provided link with others.
+
+ * Explore the Deployed Website: Experience your live site by visiting the link.
+   
+### Heroku Deployment
+
+ * Register on Heroku: Begin the journey by signing up for a Heroku account.
+
+ * App Creation: Initiate the creation of a new app on the Heroku platform.
+
+ * Pick the Hosting Location: Specify the desired hosting region for the app.
+
+ * App Configuration: After creating your app, proceed to its settings.
+
+ * Set Environment Variables: Within the settings, establish environment variables. Create a variable named "PORT" and assign it the value 8000.
+
+ * Amplify Functionality with Buildpacks: Enhance your application's capabilities by adding these buildpacks:
+
+  - Incorporate the Python buildpack.
+  - Specify "python" and save your changes.
+  - Integrate the Node.js buildpack.
+  - Specify "nodejs" and save your changes.
+
+ * Add the Python buildpack.
+   
+ * Enter "python" and save changes.
+   
+ * Add the Node.js buildpack.
+   
+ *  Enter "nodejs" and save changes.
+   
+ * Deployment Setup: Navigate to the "Deploy" section.
+
+ * Seamless GitHub Integration: Opt for GitHub as the preferred deployment method.
+
+ * Link to Your GitHub Repository: Locate your GitHub repository and establish a connection with Heroku.
+
+ * Manual Deployment: Execute a manual deployment of your chosen branch.
+
+ * Explore Your Deployed App: Once the deployment process concludes, click "View" to access and explore your live application.
 
 ## Content
 
