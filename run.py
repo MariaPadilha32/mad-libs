@@ -34,10 +34,10 @@ def mad_libs_game():
     """
     while True:
         print("First, pick a subject:\n")
-        print("1 - Food")
+        print("1 - Nursery Rhymes")
         print("2 - Music")
         print("3 - Movies")
-        print("4 - Nursery Rhymes")
+        print("4 - Food")
         print("5 - Random\n")
 
         while True:
@@ -52,19 +52,19 @@ def mad_libs_game():
                 print("Invalid input. Please pick a number between 1 - 5.")
 
         if subject_choice == 1:
-            foodStories()
+            nurseryStories()
         elif subject_choice == 2:
             musicStories()
         elif subject_choice == 3:
             moviesStories()
         elif subject_choice == 4:
-            nurseryStories()
+            foodStories()
         elif subject_choice == 5:
             randStories()
 
         sleep(3)
-        play_again = get_non_empty_input("\nPlay again? (yes/no): ").lower()
-        if play_again != "yes":
+        play_again = get_non_empty_input("\nPlay again? (y/n): ").lower()
+        if play_again != "y":
             print("\nThank you for playing!"
                   " \nThis game is part of a Code Institute project.\n"
                   "If you'd like to explore more of my work,"

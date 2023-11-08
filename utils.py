@@ -8,7 +8,7 @@ def get_non_empty_input(prompt):
         if user_input.isalpha():
             return user_input
         else:
-            print("**Please enter some information.**")
+            print("**Please enter a single word.**")
 
 
 def get_numeric_input(prompt):
