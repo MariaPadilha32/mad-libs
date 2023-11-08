@@ -102,7 +102,68 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
 ## Features
 
-## Technologies Used:
+ 1 - Opening Screen
+ 
+ ![Captura de tela 2023-11-08 220840](https://github.com/MariaPadilha32/mad-libs/assets/137770409/603e304e-5be6-4665-bac4-6e8786954747)
+
+ 2 - Asking the user to pick a subject
+ 
+![Captura de tela 2023-11-08 220846](https://github.com/MariaPadilha32/mad-libs/assets/137770409/736f6390-3807-4d6d-a965-839481b4ca4c)
+
+ 3 - After picking the subject, the user will be requested to enter some information
+ 
+ ![Captura de tela 2023-11-08 220904](https://github.com/MariaPadilha32/mad-libs/assets/137770409/525c0896-1380-40b7-9285-a34299a79f27)
+
+ 4 - The user should keep entering the information
+ 
+ ![Captura de tela 2023-11-08 221204](https://github.com/MariaPadilha32/mad-libs/assets/137770409/0813cb05-8128-4695-b4ab-5be97fa85e12)
+
+ 5 - Empity inputs are not accepted (Error message)
+ 
+ ![Captura de tela 2023-11-08 221216](https://github.com/MariaPadilha32/mad-libs/assets/137770409/c4ab1dc6-4c3a-4446-966c-73792400f192)
+
+ 6 - Input does not accept the letters and numbers (Error message)
+ 
+ ![Captura de tela 2023-11-08 221239](https://github.com/MariaPadilha32/mad-libs/assets/137770409/fa05ba4a-b1e7-4063-9150-04b0cd1e3103)
+
+ 7 - Input does not accept symbols (Error message)
+ 
+ ![Captura de tela 2023-11-08 221335](https://github.com/MariaPadilha32/mad-libs/assets/137770409/b1e35d3c-17fa-40fb-b518-cb03dbb84cad)
+
+ 8 - Input for numbers does not accept empity inputs are not accepted (Error message)
+ 
+ ![Captura de tela 2023-11-08 221356](https://github.com/MariaPadilha32/mad-libs/assets/137770409/bc90093c-221d-4a3b-89b2-a1ccad983897)
+
+ 9 - Input for numbers does not accept letters (Error message)
+
+![Captura de tela 2023-11-08 221407](https://github.com/MariaPadilha32/mad-libs/assets/137770409/11cfb4d9-fcc8-419c-a399-1b339d46a01f)
+
+ 10 - Input for numbers does not accept symbols
+
+![Captura de tela 2023-11-08 221432](https://github.com/MariaPadilha32/mad-libs/assets/137770409/f4edf167-5399-4d20-87af-97bf8fede967)
+
+ 11 - Final result is delivered - after a few seconds the question "Play again? (y/n)
+
+![Captura de tela 2023-11-08 221459](https://github.com/MariaPadilha32/mad-libs/assets/137770409/2620f1fa-4331-4f7f-a4a3-e6a4b8e5e6bf)
+ 
+ 12 - The user gets the chance to pick a new subject
+
+![Captura de tela 2023-11-08 221511](https://github.com/MariaPadilha32/mad-libs/assets/137770409/d12a44a0-3f57-4f78-8a05-6170d31f9637)
+![Captura de tela 2023-11-08 221522](https://github.com/MariaPadilha32/mad-libs/assets/137770409/8f0352dd-62ae-42d6-8e23-7caea8f64b30)
+
+ 13 - After the second round
+
+![Captura de tela 2023-11-08 221556](https://github.com/MariaPadilha32/mad-libs/assets/137770409/7134b8a8-4e78-4de6-a1f3-b7d0529d08e9)
+
+ 14 - Error message when they user trys to input an empity message
+
+ ![Captura de tela 2023-11-08 221611](https://github.com/MariaPadilha32/mad-libs/assets/137770409/cc9076e1-ce2e-400e-9400-91c5f9c84daa)
+
+ 15 - Thank you message when the user tries to end the game.
+
+![Captura de tela 2023-11-08 221623](https://github.com/MariaPadilha32/mad-libs/assets/137770409/03334312-4463-488e-95f4-d7535262a5d1)
+
+ ## Technologies Used:
 
   ### Languages:
   
