@@ -23,6 +23,7 @@ def welcome_message():
     print("The objective of the game is to create the funniest story possible")
     print("You will be prompted to input various words")
     print("such as nouns, adjectives, verbs, adverbs, etc.,")
+    print("Obs: you can be requested to input 'Number' many times in a row")
     print("and these words will be used to fill in the blanks in a story.")
     print("Enjoy the result of your Mad Libs!\n")
 
