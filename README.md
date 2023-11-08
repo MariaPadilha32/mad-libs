@@ -123,7 +123,15 @@ Should the user's answer to the above question be anything other than 'y,' the g
  - [Lucid](https://lucid.app/documents#/documents?folder_id=recent): Used for the flow chart.
 
   ### Packages:
+  
+![Captura de tela 2023-11-08 203856](https://github.com/MariaPadilha32/mad-libs/assets/137770409/1ba78a1c-9ffa-4365-ab63-dd2986f5ce96)
 
+ - imporlib: *Purpose*: The importlib package provides a way to dynamically import other Python modules, which means I can load code from different files while your program is running. In my project, I use it to dynamically import the story modules (e.g., foodStories, moviesStories) based on the user's choice of subject. This allows the code to load the appropriate story module as needed.
+   
+ - Os: *Purpose*: The Os package provides a way to interact with the operating system. It can use to perform tasks such as clearing the screen, working with directories, or executing shell commands. In my project, I use Os to clear the screen based on the user's operating system (with 'cls' for Windows and 'clear' for other systems). This helps keep the user interface clean and clear when the user decides to play again.
+   
+ - Time: *Purpose*: The time package is used for time-related functions. In my code, I specifically import the sleep function from the time package. In my project, the sleep function is used to introduce pauses in the game. For example, I have added delays between messages or questions to give the user time to read and respond, creating a more user-friendly experience.
+   
 ## Testing:
 
   ### Bugs:
