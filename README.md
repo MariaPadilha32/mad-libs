@@ -24,8 +24,6 @@ Welcome,
 
 ### Key Objectives:
 
-### Unique Selling Proposition (USP):
-
 ### Features and Functionality
 
 ## Wireframes
@@ -51,13 +49,15 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
 ![Captura de tela 2023-11-08 130248](https://github.com/MariaPadilha32/mad-libs/assets/137770409/be6c2b39-db3d-4710-af1f-9670f55b4234)
 
- 1 -
- 2 -
- 3 -
- 4 -
- 5 -
- 6 -
- 7 -
+  A short explanation for the FLow Chart above:
+ 
+ 1-  When the user runs the program, they will encounter a "welcome message" and the game rules. In Python, this part of the function is straightforward and direct.
+ 2- The second part of the Flow Chart involves the user selecting a subject to play. In Python, this is the primary function that drives the game.
+ 3- The third part includes the various subjects. In Python, each subject is stored in a separate file, with each having its own function separated from the main function.
+ 4- The fourth part prompts the user to enter multiple words. For each subject, the function is located in a different file(as mentioned above).
+ 5- In the fifth part, the Mad Lib will be generated and displayed to the user. Additionally, the user will be asked if they want to continue playing or end the game.
+ 6- The sixth part comes into play if the user decides to play again. The screen is cleared, and the user is presented with options to select a subject (returning to step 2 in the flow chart).
+ 7- The seventh part is activated if the user decides to end the game. In this case, the user will receive a farewell message, and the function will pause and stop.
 
 ## How to play
 
