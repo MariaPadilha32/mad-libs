@@ -1,9 +1,11 @@
 # Mad Libs
 
 ## Live Website
+
 [Mad Libs](https://mad-libs-d618b9c6272d.herokuapp.com/)
 
 ## Repository
+
 [GitHub](https://github.com/MariaPadilha32/mad-libs)
 
 ## About
@@ -103,6 +105,7 @@ Should the user's answer to the above question be anything other than 'y,' the g
 ## Technologies Used:
 
   ### Languages:
+  
    - [Python](https://www.python.org/) was used to create the game itself.
 
   ### Programming Paradigm:
@@ -131,6 +134,15 @@ Should the user's answer to the above question be anything other than 'y,' the g
  - Os: *Purpose*: The Os package provides a way to interact with the operating system. It can use to perform tasks such as clearing the screen, working with directories, or executing shell commands. In my project, I use Os to clear the screen based on the user's operating system (with 'cls' for Windows and 'clear' for other systems). This helps keep the user interface clean and clear when the user decides to play again.
    
  - Time: *Purpose*: The time package is used for time-related functions. In my code, I specifically import the sleep function from the time package. In my project, the sleep function is used to introduce pauses in the game. For example, I have added delays between messages or questions to give the user time to read and respond, creating a more user-friendly experience.
+
+   ### Modules:
+   
+  - food: Handles food-related Mad Lib and input collection.
+  - movies: Manages movie-related Mad Lib and input collection.
+  - nurseryrhymes: Provides nursery rhyme-based Mad Lib and input collection.
+  - randStories: Includes Mad Lib with random themes and associated input collection.
+  - music: Manages music-themed Mad Lib and input collection.
+  - utils: Houses utility functions, such as get_non_empty_input and get_numeric_input, to ensure correct and user-friendly input from players.
    
 ## Testing:
 
