@@ -51,7 +51,7 @@ def moviesStories():
                 " Street.\n...\nThe movie begins with a mysterious "
                 + noun1_movies + " crafting a deadly glove with "
                 + noun2_movies + " for fingers.\n" + girls_name_movies +
-                " , a girl, has a terrifying " + noun_movies +
+                ", a girl, has a terrifying " + noun_movies +
                 " where she's attacked by the glove-" + noun2_movies + " man."
                 "\nHer " + noun3_movies +
                 " is mysteriously slashed during the dream.\n...\n"
@@ -63,8 +63,8 @@ def moviesStories():
                 + noun4_movies + " is mirrored in the real world.\nRod is "
                 + verb2_ed_movies + " for her " + noun5_movies + "."
                 "\n...\nNancy's mother reveals a dark secret: "
-                + noun6_movies + "  a man named Freddy, " + surname_movies +
-                " a child " + noun7_movies + " , was " + verb_ed_movies +
+                + noun6_movies + " a man named Freddy " + surname_movies +
+                ", a child " + noun7_movies + " , was " + verb_ed_movies +
                 " by parents.\nNow, he's " + verb_ing_movies +
                 " their dreams seeking " + noun8_movies +
                 ".\n...\nNancy tries to " + verb_movies +

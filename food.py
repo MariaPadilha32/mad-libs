@@ -27,7 +27,7 @@ def foodStories():
             "\nClassic Guacamole: \n"
             "Ingredients:\n" + number_food + " ripe avocados \n"
             "1 small " + ingredient_food + ", finely diced\n"
-            + number1_food + " - " + number2_food + " cloves "
+            + number1_food + " - " + number2_food + " "
             + ingredient1_food + ", minced\n"
             "1-2 " + ingredient2_food + " diced\n"
             "Juice of " + number3_food + " lime(s)\n"
