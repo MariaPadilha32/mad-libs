@@ -159,7 +159,7 @@ Should the user's answer to the above question be anything other than 'y,' the g
 
  ![Captura de tela 2023-11-08 221611](https://github.com/MariaPadilha32/mad-libs/assets/137770409/cc9076e1-ce2e-400e-9400-91c5f9c84daa)
 
- 15 - Thank you message when the user tries to end the game.
+ 15 - Thank you message when the user ends the game - any input besides "y" will terminate the game.
 
 ![Captura de tela 2023-11-08 221623](https://github.com/MariaPadilha32/mad-libs/assets/137770409/03334312-4463-488e-95f4-d7535262a5d1)
 
