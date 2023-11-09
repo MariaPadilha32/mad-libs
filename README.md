@@ -285,11 +285,23 @@ utils.py
  
  Bugs Encountered: During the development of this project, I encountered several bugs that required debugging. While I didn't document all of them, I'd like to highlight a few key issues and how they were resolved.
 
- Issue 1: Non-functional Stories: One significant bug I encountered was that the stories were not working as expected. After thorough investigation, I discovered that this was due to my failure to call the necessary functions. This issue was resolved by adding the missing function calls in the appropriate places in the code.
+Issue 1: The biggest issue I had was on my main function, at the time it looked like this:
 
- Issue 2: Small Typos: In the process of debugging, I also encountered several smaller bugs that were often caused by misspellings and minor syntax errors. These seemingly insignificant issues can have a significant impact on the code's functionality. Paying attention to details and thoroughly reviewing the code proved essential in resolving these bugs.
+![Captura de tela 2023-11-09 090516](https://github.com/MariaPadilha32/mad-libs/assets/137770409/b59f073f-0737-489d-83d1-583da790879d)
 
-![Captura de tela 2023-11-06 213812](https://github.com/MariaPadilha32/mad-libs/assets/137770409/e1f5aee4-034a-48a5-bcf3-ddce8cac9180)
+After improvement the final result is:
+
+![Captura de tela 2023-11-09 091128](https://github.com/MariaPadilha32/mad-libs/assets/137770409/3ee7e08d-e634-4a84-a8a0-6176017932f9)
+
+The main change are the the Function Calls, the reason is that direct function calls are more straightforward and align with the modular structure of the code. This change simplifies the logic and improves code readability.
+
+ Issue 2: Non-functional Stories: One significant bug I encountered was that the stories were not working as expected. After thorough investigation, I discovered that this was due to my failure to call the necessary functions. This issue was resolved by adding the missing function calls in the appropriate places in the code.
+
+ Issue 3: Small Typos: In the process of debugging, I also encountered several smaller bugs that were often caused by misspellings and minor syntax errors. These seemingly insignificant issues can have a significant impact on the code's functionality. Paying attention to details and thoroughly reviewing the code proved essential in resolving these bugs.
+
+ Issue 4: Not having the correct Packages and Modules in place, once I realized my error it was a very easy fix.
+
+ ![Captura de tela 2023-11-06 213812](https://github.com/MariaPadilha32/mad-libs/assets/137770409/e1f5aee4-034a-48a5-bcf3-ddce8cac9180)
 ![Captura de tela 2023-11-06 210810](https://github.com/MariaPadilha32/mad-libs/assets/137770409/a665f4a4-0577-4544-921b-3921fbbf38ba)
 ![Captura de tela 2023-11-06 210436](https://github.com/MariaPadilha32/mad-libs/assets/137770409/d620d695-2658-498b-92ea-eb61f50ba099)
 ![Captura de tela 2023-11-05 204541](https://github.com/MariaPadilha32/mad-libs/assets/137770409/1d29906e-574c-4081-8f78-3cdbc64f77ba)
